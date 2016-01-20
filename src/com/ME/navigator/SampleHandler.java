@@ -18,7 +18,7 @@ import com.teamcenter.rac.kernel.TCComponentFolder;
 import com.teamcenter.rac.util.MessageBox;
 import com.teamcenter.rac.util.Registry;
 
-public class LDefaultHandlerFl extends AbstractHandler
+public class SampleHandler extends AbstractHandler
 {
   static AbstractAIFUIApplication appl;
   final String sMB_Title="Выбор объекта";

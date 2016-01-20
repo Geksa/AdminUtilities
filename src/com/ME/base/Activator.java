@@ -1,4 +1,4 @@
-package com.ME.milx2008_base;
+package com.ME.base;
 
 import org.eclipse.ui.plugin.AbstractUIPlugin;
 import org.osgi.framework.BundleContext;

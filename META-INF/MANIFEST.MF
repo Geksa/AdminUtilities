@@ -3,7 +3,7 @@ Bundle-ManifestVersion: 2
 Bundle-Name: Testjface
 Bundle-SymbolicName: AdminUtilities;singleton:=true
 Bundle-Version: 1.8.3
-Bundle-Activator: com.ME.milx2008_base.Activator
+Bundle-Activator: com.ME.base.Activator
 Require-Bundle: org.eclipse.ui,
  org.eclipse.core.runtime,
  com.teamcenter.rac.kernel;bundle-version="8000.3.0",
@@ -14,10 +14,8 @@ Require-Bundle: org.eclipse.ui,
  com.teamcenter.rac.accessmanager;bundle-version="8000.3.0",
  com.teamcenter.rac.tcapps;bundle-version="8000.3.0",
  com.teamcenter.rac.external;bundle-version="8000.3.0",
- icctstubs;bundle-version="8000.3.0",
- LANIT.Borland.lib;bundle-version="1.8.3",
- MILX2008.base;bundle-version="1.8.3"
+ icctstubs;bundle-version="8000.3.0"
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Bundle-ActivationPolicy: lazy
-Export-Package: com.ME.milx2008_base,
+Export-Package: com.ME.base,
  com.ME.navigator
