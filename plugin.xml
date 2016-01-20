@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension point="com.teamcenter.rac.util.tc_properties"
+         id="Spec56"
+         name="Spec56">
+   </extension>
+
+   <extension point="org.eclipse.ui.menus">
+    <menuContribution locationURI="menu:org.eclipse.ui.main.menu">
+	<menu id="MIL.Navigator.userMenu" label="Меню пользователя">
+
+	  <command commandId="MIL.PSE.specCmd56">
+        <visibleWhen>
+          <reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/>
+        </visibleWhen>
+	  </command>
+
+     </menu>
+    </menuContribution>
+   </extension>
+
+   <extension point="org.eclipse.ui.commands">
+      <command id="MIL.PSE.specCmd56"
+         defaultHandler="com.MIL.pse.LDefaultHandlerBL"
+         name="AdminUtils"/>
+   </extension>
+
+</plugin>
